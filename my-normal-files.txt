@@ -1,7 +1,8 @@
 normal files 
 
-cd /my-libs
+cd to root dir
+cd my-libs
 git sparse-checkout set jwt-libs
 
-cd /
+cd to root dir
 git submodule set-branch --branch release my-libs/
