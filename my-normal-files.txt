@@ -1,0 +1,3 @@
+normal files 
+
+git filter-branch --subdirectory-filter jwt-libs
