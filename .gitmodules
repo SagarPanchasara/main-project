@@ -1,3 +1,5 @@
 [submodule "my-libs"]
 	path = my-libs
 	url = https://github.com/SagarPanchasara/my-libs.git
+[submodule "my-libs/"]
+	branch = release

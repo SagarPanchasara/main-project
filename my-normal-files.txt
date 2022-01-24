@@ -1,3 +1,7 @@
 normal files 
 
-git filter-branch --subdirectory-filter jwt-libs
+cd /my-libs
+git sparse-checkout set jwt-libs
+
+cd /
+git submodule set-branch --branch release my-libs/
